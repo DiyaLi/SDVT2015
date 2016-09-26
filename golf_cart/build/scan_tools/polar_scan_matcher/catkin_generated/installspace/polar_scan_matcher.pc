@@ -1,0 +1,8 @@
+prefix=/home/hangxinliu/golf_cart/install
+
+Name: polar_scan_matcher
+Description: Description of polar_scan_matcher
+Version: 0.3.2
+Cflags: -I/home/hangxinliu/golf_cart/install/include
+Libs: -L/home/hangxinliu/golf_cart/install/lib -lpolar_scan_matcher
+Requires: 

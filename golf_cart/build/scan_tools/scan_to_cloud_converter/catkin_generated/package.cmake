@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "scan_to_cloud_converter")
+set(scan_to_cloud_converter_MAINTAINER "Ivan Dryanovski <ccnyroboticslab@gmail.com>, Carlos <cjaramillo@gc.cuny.edu>")
+set(scan_to_cloud_converter_DEPRECATED "")
+set(scan_to_cloud_converter_VERSION "0.3.2")
+set(scan_to_cloud_converter_BUILD_DEPENDS "roscpp" "pcl_ros" "pcl_conversions" "libpcl-all-dev")
+set(scan_to_cloud_converter_RUN_DEPENDS "roscpp" "pcl_ros" "pcl_conversions" "libpcl-all")
+set(scan_to_cloud_converter_BUILDTOOL_DEPENDS "catkin")

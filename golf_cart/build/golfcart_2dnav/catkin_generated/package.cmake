@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "golfcart_2dnav")
+set(golfcart_2dnav_MAINTAINER "hangxinliu <hangxinliu@todo.todo>")
+set(golfcart_2dnav_DEPRECATED "")
+set(golfcart_2dnav_VERSION "0.0.0")
+set(golfcart_2dnav_BUILD_DEPENDS "lms1xx" "move_base" "robot_pose_ekf" "um7")
+set(golfcart_2dnav_RUN_DEPENDS "lms1xx" "move_base" "robot_pose_ekf" "um7")
+set(golfcart_2dnav_BUILDTOOL_DEPENDS "catkin")

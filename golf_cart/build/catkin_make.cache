@@ -1,0 +1,2 @@
+UDP:cart_description:golfcart_2dnav
+-DCATKIN_DEVEL_PREFIX=/home/hangxinliu/golf_cart/devel -DCMAKE_INSTALL_PREFIX=/home/hangxinliu/golf_cart/install -G Unix Makefiles

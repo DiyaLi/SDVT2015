@@ -1,0 +1,8 @@
+prefix=/home/hangxinliu/golf_cart/devel
+
+Name: laser_ortho_projector
+Description: Description of laser_ortho_projector
+Version: 0.3.2
+Cflags: -I/home/hangxinliu/golf_cart/src/scan_tools/laser_ortho_projector/include
+Libs: -L/home/hangxinliu/golf_cart/devel/lib -llaser_ortho_projector
+Requires: roscpp nodelet sensor_msgs tf pcl_ros pcl_conversions geometry_msgs message_filters

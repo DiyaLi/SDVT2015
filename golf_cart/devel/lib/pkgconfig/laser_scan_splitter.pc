@@ -1,0 +1,8 @@
+prefix=/home/hangxinliu/golf_cart/devel
+
+Name: laser_scan_splitter
+Description: Description of laser_scan_splitter
+Version: 0.3.2
+Cflags: -I/home/hangxinliu/golf_cart/src/scan_tools/laser_scan_splitter/include
+Libs: -L/home/hangxinliu/golf_cart/devel/lib -llaser_scan_splitter
+Requires: roscpp nodelet sensor_msgs

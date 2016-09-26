@@ -1,0 +1,8 @@
+prefix=/home/hangxinliu/golf_cart/devel
+
+Name: um7
+Description: Description of um7
+Version: 0.0.3
+Cflags: -I/home/hangxinliu/golf_cart/devel/include -I/home/hangxinliu/golf_cart/src/um7/include
+Libs: -L/home/hangxinliu/golf_cart/devel/lib 
+Requires: message_runtime

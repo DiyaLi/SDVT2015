@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<launch>  
+  <node pkg="um7" type="um7_driver" name="imu" output="screen">
+    <param name="_port" value="/dev/ttyUSB0"/>
+   <!-- <remap from="/imu/data" to="/imu_data"/> -->
+  </node>
+</launch>

@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "UDP")
+set(UDP_MAINTAINER "hangxinliu <hangxinliu@todo.todo>")
+set(UDP_DEPRECATED "")
+set(UDP_VERSION "0.0.0")
+set(UDP_BUILD_DEPENDS "cv_bridge" "geometry_msgs" "image_transport" "roscpp" "rospy" "sensor_msgs" "std_msgs" "tf")
+set(UDP_RUN_DEPENDS "cv_bridge" "geometry_msgs" "image_transport" "roscpp" "rospy" "sensor_msgs" "std_msgs" "tf")
+set(UDP_BUILDTOOL_DEPENDS "catkin")

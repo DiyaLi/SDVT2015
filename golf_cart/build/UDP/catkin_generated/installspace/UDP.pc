@@ -1,0 +1,8 @@
+prefix=/home/hangxinliu/golf_cart/install
+
+Name: UDP
+Description: Description of UDP
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/hangxinliu/golf_cart/install/lib 
+Requires: 

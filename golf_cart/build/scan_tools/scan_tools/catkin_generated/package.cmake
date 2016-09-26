@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "scan_tools")
+set(scan_tools_MAINTAINER "Ivan Dryanovski <ccnyroboticslab@gmail.com>, Carlos <cjaramillo@gc.cuny.edu>, Isaac I.Y. Saito <iiysaito@opensource-robotics.tokyo.jp>")
+set(scan_tools_DEPRECATED "")
+set(scan_tools_VERSION "0.3.2")
+set(scan_tools_BUILD_DEPENDS )
+set(scan_tools_RUN_DEPENDS "laser_ortho_projector" "laser_scan_matcher" "laser_scan_sparsifier" "laser_scan_splitter" "ncd_parser" "scan_to_cloud_converter" "polar_scan_matcher")
+set(scan_tools_BUILDTOOL_DEPENDS "catkin")

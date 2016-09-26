@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<launch>
+ 
+
+
+<!-- lidar -->
+<node pkg="lms1xx"
+      name="lms"
+      type="LMS1xx_node"
+      output="screen">
+      <param name="host" value="192.168.1.15"/>
+      <param name="frame_id" value="/base_laser"/>
+</node>
+
+
+
+
+
+
+
+
+</launch>
+
+
+
+
+
+
+

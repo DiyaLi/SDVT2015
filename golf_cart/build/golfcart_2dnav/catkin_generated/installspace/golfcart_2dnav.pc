@@ -1,0 +1,8 @@
+prefix=/home/hangxinliu/golf_cart/install
+
+Name: golfcart_2dnav
+Description: Description of golfcart_2dnav
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/hangxinliu/golf_cart/install/lib 
+Requires: 

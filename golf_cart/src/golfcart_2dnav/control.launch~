@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<launch>
+
+  <rosparam command="load" file="$(find golfcart_2dnav)/config/control.yaml" />
+
+  <node name="base_controller_spawner" pkg="controller_manager" type="spawner" args="husky_joint_publisher husky_velocity_controller --shutdown-timeout 3"/>
+
+
+  <node pkg="twist_mux" type="twist_mux" name="twist_mux">
+    <rosparam command="load" file="$(find golfcart_2dnav)/config/twist_mux.yaml" />
+    <remap from="cmd_vel_out" to="cart_velocity_controller/cmd_vel"/>
+  </node>
+
+</launch>
